@@ -5,3 +5,5 @@ if primeiro_valor >= segundo_valor:
     print(f'o {primeiro_valor=} é maior ou igual ao {segundo_valor=}')
 else:
     print(f"o {segundo_valor=} é maior ou igual ao {primeiro_valor=}")
+
+#modificando
