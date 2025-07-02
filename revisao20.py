@@ -6,4 +6,3 @@ if primeiro_valor >= segundo_valor:
 else:
     print(f"o {segundo_valor=} é maior ou igual ao {primeiro_valor=}")
 
-#modificando
