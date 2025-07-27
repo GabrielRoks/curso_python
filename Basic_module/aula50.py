@@ -1,4 +1,4 @@
-lista = ['Júlia', 'Basiio', 'Roks']
+lista = ['Gabriel', 'Roks', 'Gomes']
 lista.append('Rodrigues')
 indices = range(len(lista))
 
