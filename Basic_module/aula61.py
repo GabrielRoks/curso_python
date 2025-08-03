@@ -23,7 +23,7 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
-cpf_enviado_cliente = "74682489070"
+cpf_enviado_cliente = "746.824.890-70".replace('.', '').replace('-', '')
 nove_digitos = cpf_enviado_cliente[:9]
 dez_digitos = cpf_enviado_cliente[:10]
 multiplicador = 10
