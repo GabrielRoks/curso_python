@@ -23,9 +23,9 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
-cpf = "74682489070"
-nove_digitos = cpf[:9]
-dez_digitos = cpf[:10]
+cpf_enviado_cliente = "74682489070"
+nove_digitos = cpf_enviado_cliente[:9]
+dez_digitos = cpf_enviado_cliente[:10]
 multiplicador = 10
 resultado_digito_1 = 0
 multiplicador_2 = 11
@@ -43,3 +43,8 @@ for digito in dez_digitos:
 digito_2 = (resultado_digito_2 * 10) % 11
 digito_2 = digito_2 if digito_2 <= 9 else 0
 print(digito_2)
+cpf_gerado = f'{nove_digitos}{digito_1}{digito_2}'
+if cpf_enviado_cliente == cpf_gerado:
+    print(f'{cpf_enviado_cliente} é válido')
+else:
+    print("CPF inválido")
